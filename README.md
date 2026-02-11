@@ -1,2 +1,34 @@
-# SQL-Consumer-Goods-Sales-Analysis
-Ad hoc SQL analysis on a consumer goods sales dataset to derive business insights on revenue trends, customer behavior, product performance, and repeat purchase patterns.
+<h1 align="center"> SQL-Based Consumer Goods Sales Analysis | Ad Hoc Business Insights</h1>
+
+### Project Objective
+- This project analyzes a consumer goods dataset containing customers, orders, and products. The objective was to perform ad-hoc SQL analysis to derive business insights such as revenue trends, customer behavior, repeat purchases, and product performance.
+
+---
+
+### Dataset Overview
+**Tables:**
+
+customers (customer_id, customer_name, city, signup_date)
+
+products (product_id, product_name, category, price)
+
+orders (order_id, customer_id, product_id, order_date, quantity)
+
+**Key Columns:**
+
+customers (customer_id is the PRIMARY KEY)
+
+products (product_id is the PRIMARY KEY)
+
+orders (order_id is the PRIMARY KEY. customer_id and product_id are the FOREIGN KEYS)
+
+
+
+
+
+
+
+
+
+
+
