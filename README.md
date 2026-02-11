@@ -56,7 +56,9 @@ orders (order_id is the PRIMARY KEY. customer_id and product_id are the FOREIGN 
   
   Top 5 products by revenue
 
-All queries available in SQL file
+  [Check out the Data import queries here](url)
+
+[Check out the Ad-hoc queries here](https://github.com/Sri-Chandana20/SQL-Consumer-Goods-Sales-Analysis/blob/main/Ad-hoc%20queries.sql)
 
 
 
