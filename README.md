@@ -56,9 +56,38 @@ orders (order_id is the PRIMARY KEY. customer_id and product_id are the FOREIGN 
   
   Top 5 products by revenue
 
-  [Check out the Data import queries here](url)
+[Check out the Data import queries here](https://github.com/Sri-Chandana20/SQL-Consumer-Goods-Sales-Analysis/blob/main/Data%20import.sql)
 
 [Check out the Ad-hoc queries here](https://github.com/Sri-Chandana20/SQL-Consumer-Goods-Sales-Analysis/blob/main/Ad-hoc%20queries.sql)
+
+---
+
+### Tools Used
+
+**MySQL:** Database storage (CREATE TABLE with data types like DECIMAL, VARCHAR, DATE) and querying (JOINS, GROUP BY, HAVING, LIMIT).
+
+---
+
+### Key Insights
+
+- On average, **more than 5 new customers joined each month**, with April having the highest number (16 customers).
+
+- There are **34 repeat customers** in the dataset. Also, 26 customers have purchased from more than one product category.
+
+- **Smartwatch** generated the **highest revenue** (132,981), while Cotton T-Shirt generated the lowest revenue (2,397).
+
+- **Electronics** is the **highest revenue-generating category** (374,406), whereas Apparel generated the lowest revenue (75,263).
+
+- **London** generated the **highest revenue** (210,008), while Chennai generated 86,568.
+
+- **Laptop Backpack** is the **best-selling** product by quantity (33 units sold).
+
+- The **top 5 revenue-generating** products are Smartwatch, Wireless Earbuds, Laptop Backpack, Hair Dryer, and Formal Shoes.
+
+
+  
+
+  
 
 
 
