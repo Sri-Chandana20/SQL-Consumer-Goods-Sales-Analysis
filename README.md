@@ -1,6 +1,6 @@
 <h1 align="center"> SQL-Based Consumer Goods Sales Analysis | Ad Hoc Business Insights</h1>
 
-### Project Objective
+### Analysis Objective
 - This project analyzes a consumer goods dataset containing customers, orders, and products. The objective was to perform ad-hoc SQL analysis to derive business insights such as revenue trends, customer behavior, repeat purchases, and product performance.
 
 ---
