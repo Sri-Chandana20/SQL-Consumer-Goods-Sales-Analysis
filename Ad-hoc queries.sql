@@ -140,14 +140,18 @@ WHERE
     
 -- 11.  Average order value (AOV)
 
+WITH order_summary AS (
+    SELECT 
+        o.order_id,
+        SUM(p.price * o.quantity) AS order_value
+    FROM orders o
+    JOIN products p ON o.product_id = p.product_id
+    GROUP BY o.order_id
+)
 SELECT 
-    COUNT(o.order_id) AS order_count,
-    ROUND(SUM(p.price * o.quantity) / COUNT(DISTINCT o.order_id),
-            2) AS AOV
-FROM
-    orders o
-        JOIN
-    products p ON o.product_id = p.product_id;
+    COUNT(order_id) AS order_count,
+    ROUND(AVG(order_value), 2) AS AOV
+FROM order_summary;
 
 -- 12. Best-selling product by quantity
 
