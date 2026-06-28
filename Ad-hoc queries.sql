@@ -105,7 +105,7 @@ ORDER BY quantity_sold DESC
 LIMIT 1;
 
 
--- 8. Total quantity sold for each product.
+-- 8. Total quantity sold for each product
 
 SELECT 
     p.product_id,
