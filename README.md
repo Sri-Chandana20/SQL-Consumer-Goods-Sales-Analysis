@@ -1,7 +1,7 @@
 <h1 align="center"> SQL-Based Consumer Goods Sales Analysis | Ad Hoc Business Insights</h1>
 
 ### Analysis Objective
-- This project analyzes a consumer goods dataset containing customers, orders, and products. The objective was to perform ad-hoc SQL analysis to derive business insights such as revenue trends, customer behavior, repeat purchases, and product performance.
+- This project analyzes a consumer goods dataset containing customers, orders, and products. The objective was to perform ad-hoc SQL analysis to derive business insights such as customer, product performance, and business performance analysis.
 
 ---
 
@@ -26,35 +26,39 @@ orders (order_id is the PRIMARY KEY. customer_id and product_id are the FOREIGN 
 
 ### Key Business Questions Solved
 
-- **Customer Analysis:**
+- **Customer Analysis**
 
-  New customers per month
-  
-  Repeat customers
-  
-  First order within 30 days
-  
-  Customers ordering from multiple categories
+**1. Customers with no orders -** Every customer placed at least one order, indicating strong customer conversion and engagement.
 
-- **Revenue Analysis:**
+**2. New customers per month -** April saw a significant increase in customer acquisition compared to other months. This could indicate the success of a marketing campaign, a seasonal event, or promotional activities
 
-  Total revenue per product
-  
-  Revenue by category
-  
-  City-wise revenue
-  
-  Monthly revenue trend
-  
-  AOV
+**3. First order within 30 days of signup -** Every customer placed their first order within 30 days of signing up. It indicates strong customer activation and engagement. The business appears to be effective in encouraging customers to make their first purchase soon after registration.
 
-- **Product Analysis:**
 
-  Best-selling product
+- **Product Performance Analysis**
   
-  Products never ordered
-  
-  Top 5 products by revenue
+Total revenue per product
+
+Top 5 products by revenue
+
+Products never ordered
+
+Best-selling product by quantity
+
+Total quantity sold for each product
+
+Total revenue by category
+
+- **Business Performance Analysis**
+
+City-wise total revenue
+
+Monthly orders
+
+Monthly revenue trend
+
+Average order value (AOV)
+
 
 [Check out the Data import queries here](https://github.com/Sri-Chandana20/SQL-Consumer-Goods-Sales-Analysis/blob/main/Data%20import.sql)
 
