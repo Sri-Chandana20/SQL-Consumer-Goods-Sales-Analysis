@@ -18,7 +18,7 @@ A synthetic relational dataset was created to simulate a real-world e-commerce e
 
 ---
 
-### Dataset Overviee
+### Dataset Overview
 
 **Tables:**
 
